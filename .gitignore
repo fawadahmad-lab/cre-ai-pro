@@ -1,0 +1,42 @@
+# ==========================================
+# Global / OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Next.js (Frontend) Rules
+# ==========================================
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/.docusaurus/
+**/.turbo/
+
+# ==========================================
+# FastAPI / Python (Backend) Rules
+# ==========================================
+# Virtual environments
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Python cache & compiled files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/local_settings.py
