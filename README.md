@@ -238,4 +238,4 @@ _Placeholder — add your chosen license here._
 
 ## 🙋 Contact
 
-_Add your contact / portfolio links here._
+https://fawad-ai.vercel.app/
